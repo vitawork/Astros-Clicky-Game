@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "Yuli Gurriel",
+    "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/36006.png&w=350&h=254",
+    "info":"https://www.mlb.com/player/yuli-gurriel-493329",
+    "num": 10
+  },
+  {
+    "id": 2,
+    "name": "Carlos Correa",
+    "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32653.png&w=350&h=254",
+    "info": "https://www.mlb.com/player/carlos-correa-621043",
+    "num": 1
+  },
+  {
+    "id": 3,
+    "name": "Jose Altuve",
+    "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/31662.png&w=350&h=254",
+    "info": "https://www.mlb.com/player/jose-altuve-514888",
+    "num": 27
+  },
+  {
+    "id": 4,
+    "name": "Alex Bregman",
+    "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/34886.png&w=350&h=254",
+    "info": "https://www.mlb.com/player/alex-bregman-608324",
+    "num": 2
+  },
+  {
+    "id": 5,
+    "name": "Yordan Alvarez",
+    "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/36018.png&w=350&h=254",
+    "info": "https://www.mlb.com/player/yordan-alvarez-670541",
+    "num": 44
+  },
+  {
+    "id": 6,
+    "name": "George Springer",
+    "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32078.png&w=350&h=254",
+    "info": "https://www.mlb.com/player/george-springer-543807",
+    "num": 4
+  },
+  {
+    "id": 7,
+    "name": "Aledmys Díaz",
+    "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/33390.png&w=350&h=254",
+    "info": "https://www.mlb.com/player/aledmys-diaz-649557",
+    "num": 16
+  },
+  {
+    "id": 8,
+    "name": "Justin Verlander",
+    "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/6341.png&w=350&h=254",
+    "info": "https://www.mlb.com/player/justin-verlander-434378",
+    "num": 35
+  },
+  {
+    "id": 9,
+    "name": "Robinson Chirinos",
+    "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30445.png&w=350&h=254",
+    "info": "https://www.mlb.com/player/robinson-chirinos-455139",
+    "num": 28
+  },
+  {
+    "id": 10,
+    "name": "Jose Urquidy",
+    "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/35759.png&w=350&h=254",
+    "info": "https://www.mlb.com/player/jose-urquidy-664353",
+    "num": 65
+  },
+  {
+    "id": 11,
+    "name": "Roberto Osuna",
+    "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/32693.png&w=350&h=254",
+    "info": "https://www.mlb.com/player/roberto-osuna-532077",
+    "num": 54
+  },
+  {
+    "id": 12,
+    "name": "Martín Maldonado",
+    "image": "https://a.espncdn.com/combiner/i?img=/i/headshots/mlb/players/full/30289.png&w=350&h=254",
+    "info": "https://www.mlb.com/player/martin-maldonado-455117",
+    "num": 12
+  }
+]

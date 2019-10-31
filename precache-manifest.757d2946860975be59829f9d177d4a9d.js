@@ -1,18 +1,18 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "0623723729977e3348f616588e1bb62d",
+    "revision": "1f1999aef38b0f485fe9b68ffaa1bfd5",
     "url": "/Astros-Clicky-Game/index.html"
   },
   {
-    "revision": "44c124ca873e5f25e185",
-    "url": "/Astros-Clicky-Game/static/css/main.2b42138e.chunk.css"
+    "revision": "f18977a4404fe59944d4",
+    "url": "/Astros-Clicky-Game/static/css/main.1b45b423.chunk.css"
   },
   {
     "revision": "ec7e7baeb333024a19cc",
     "url": "/Astros-Clicky-Game/static/js/2.7b82c88d.chunk.js"
   },
   {
-    "revision": "44c124ca873e5f25e185",
+    "revision": "f18977a4404fe59944d4",
     "url": "/Astros-Clicky-Game/static/js/main.4fdcfc02.chunk.js"
   },
   {

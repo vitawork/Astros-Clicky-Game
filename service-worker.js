@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/Astros-Clicky-Game/precache-manifest.26c282a00ad2acfb90323a62ba91fe08.js"
+  "/Astros-Clicky-Game/precache-manifest.757d2946860975be59829f9d177d4a9d.js"
 );
 
 self.addEventListener('message', (event) => {

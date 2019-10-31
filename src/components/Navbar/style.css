@@ -1,5 +1,5 @@
 .navbar {
-  background-color: #EB6D1F;
+  background-color: #eb6d1f;
   min-height: 70px;
   position: fixed;
   width: 99%;
@@ -11,6 +11,7 @@
   z-index: 99;
   white-space: nowrap;
   position: absolute;
+  font-family: sans-serif;
 }
 
 .navbar ul {
@@ -27,6 +28,8 @@
   text-decoration: none;
   color: #fff;
   font-weight: 900;
+  font-family: "Racing Sans One", cursive;
+  color: #002c61;
 }
 @media (max-width: 420px) {
   .navbar li:first-child {
@@ -57,7 +60,7 @@
     color: #fff;
   }
   50% {
-    color: #2e7d32;
+    color: #227fd6;
   }
   to {
     color: #fff;
@@ -68,7 +71,7 @@
     color: #fff;
   }
   50% {
-    color: #2e7d32;
+    color: #227fd6;
   }
   to {
     color: #fff;

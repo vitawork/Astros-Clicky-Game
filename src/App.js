@@ -10,12 +10,31 @@ class App extends React.Component {
   state = {
     playersState: players,
     score: 0,
-    topscore: 0
+    topscore: 0,
+    cliked: []
   };
 
   componentDidMount() {
     this.random();
+    document.getElementById("mes").innerHTML = "";
   }
+
+  clickCard = id => {
+    document.getElementById("cards").className = "";
+    this.random();
+    const clicked = this.state.cliked;
+    if (clicked.includes(id)) {
+      this.setState({ score: 0, cliked: [] });
+      document.getElementById("cards").className = "shake";
+    } else {
+      clicked.push(id);
+      let score = this.state.score + 1;
+      let topscore = this.state.topscore;
+      if (score > topscore) topscore += 1;
+
+      this.setState({ score, topscore, clicked });
+    }
+  };
 
   random = () => {
     const playersState = this.state.playersState;
@@ -29,35 +48,29 @@ class App extends React.Component {
     this.setState({ playersState });
   };
 
-  removeF = id => {
-    console.log("is this hitting");
-    const playersState = this.state.playersState.filter(
-      player => player.id !== id
-    );
-    console.log(playersState);
-    // this.state.playersState = playersState
-    this.setState({ playersState });
-  };
-
   render() {
     return (
       <Wrapper>
         <Navbar score={this.state.score} topscore={this.state.topscore} />
         <Head />
-        <main class="container">
-          {this.state.playersState.map(item => {
-            return (
-              <Card
-                key={item.id}
-                name={item.name}
-                image={item.image}
-                num={item.num}
-                info={item.info}
-                remF={() => this.removeF(item.id)}
-              />
-            );
-          })}
-        </main>
+
+        <div id="cards" class="">
+          <main class="container">
+            {this.state.playersState.map(item => {
+              return (
+                <Card
+                  key={item.id}
+                  name={item.name}
+                  image={item.image}
+                  num={item.num}
+                  info={item.info}
+                  clickCard={() => this.clickCard(item.id)}
+                />
+              );
+            })}
+          </main>
+        </div>
+        <footer class="footer">World Series 2019</footer>
       </Wrapper>
     );
   }

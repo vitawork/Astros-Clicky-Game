@@ -1,7 +1,6 @@
 * {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
-  font-family: sans-serif;
 }
 #root,
 #root > div,
@@ -10,6 +9,8 @@ html {
   height: 100%;
   margin: 0;
   padding: 0;
+  background-color: #959595;
+  background: url("./background.jpg");
 }
 
 .shake {

@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Astros-Clicky-Game/static/css/main.2b42138e.chunk.css",
+    "main.js": "/Astros-Clicky-Game/static/js/main.8ffe58b8.chunk.js",
+    "main.js.map": "/Astros-Clicky-Game/static/js/main.8ffe58b8.chunk.js.map",
+    "runtime-main.js": "/Astros-Clicky-Game/static/js/runtime-main.4a4f02ff.js",
+    "runtime-main.js.map": "/Astros-Clicky-Game/static/js/runtime-main.4a4f02ff.js.map",
+    "static/js/2.7b82c88d.chunk.js": "/Astros-Clicky-Game/static/js/2.7b82c88d.chunk.js",
+    "static/js/2.7b82c88d.chunk.js.map": "/Astros-Clicky-Game/static/js/2.7b82c88d.chunk.js.map",
+    "index.html": "/Astros-Clicky-Game/index.html",
+    "precache-manifest.6900da7bd9294dec752083f15e37f1ae.js": "/Astros-Clicky-Game/precache-manifest.6900da7bd9294dec752083f15e37f1ae.js",
+    "service-worker.js": "/Astros-Clicky-Game/service-worker.js",
+    "static/css/main.2b42138e.chunk.css.map": "/Astros-Clicky-Game/static/css/main.2b42138e.chunk.css.map",
+    "static/media/index.css": "/Astros-Clicky-Game/static/media/background.dc97f37e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4a4f02ff.js",
+    "static/js/2.7b82c88d.chunk.js",
+    "static/css/main.2b42138e.chunk.css",
+    "static/js/main.8ffe58b8.chunk.js"
+  ]
+}

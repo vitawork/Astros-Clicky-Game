@@ -30,6 +30,7 @@
   font-weight: 900;
   font-family: "Racing Sans One", cursive;
   color: #002c61;
+  font-size: calc(25px + 14 * (100vw - 320px) / 800);
 }
 @media (max-width: 420px) {
   .navbar li:first-child {

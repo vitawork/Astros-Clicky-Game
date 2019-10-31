@@ -6,7 +6,7 @@ function Navbar(props) {
     <nav class="navbar">
       <ul>
         <li class="brand">
-          <a href="#">Astros Clicky Game!</a>
+          <a href="https://vitawork.github.io/Astros-Clicky-Game/">Astros Clicky Game!</a>
         </li>
         <li id="mes" class=""></li>
         <li>

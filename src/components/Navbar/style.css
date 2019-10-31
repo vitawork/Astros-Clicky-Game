@@ -49,7 +49,7 @@
 
 .navbar .correct {
   -webkit-animation: 0.4s correct;
-  animation: 0.4s correct;
+  animation: 0.4s correct infinite;
 }
 .navbar .incorrect {
   -webkit-animation: 0.4s incorrect;

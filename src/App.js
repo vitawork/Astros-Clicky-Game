@@ -20,19 +20,30 @@ class App extends React.Component {
   }
 
   clickCard = id => {
+    document.getElementById("won").className = "wrapper";
+    document.getElementById("mes").innerHTML = "";
     document.getElementById("cards").className = "";
+    document.getElementById("mes").className = "";
     this.random();
     const clicked = this.state.cliked;
     if (clicked.includes(id)) {
       this.setState({ score: 0, cliked: [] });
+      document.getElementById("mes").innerHTML = "You guessed incorrectly!";
+      document.getElementById("mes").className = "incorrect";
       document.getElementById("cards").className = "shake";
     } else {
       clicked.push(id);
       let score = this.state.score + 1;
-      let topscore = this.state.topscore;
-      if (score > topscore) topscore += 1;
-
-      this.setState({ score, topscore, clicked });
+      if (score === 12) {
+        document.getElementById("won").className = "wrapper shake";
+        this.setState({ score: 0, topscore: 0, cliked: [] });
+        document.getElementById("mes").innerHTML = "YOU WIN!";
+        document.getElementById("mes").className = "correct";
+      } else {
+        let topscore = this.state.topscore;
+        if (score > topscore) topscore += 1;
+        this.setState({ score, topscore, clicked });
+      }
     }
   };
 

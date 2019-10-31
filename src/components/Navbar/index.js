@@ -8,9 +8,7 @@ function Navbar(props) {
         <li class="brand">
           <a href="#">Astros Clicky Game!</a>
         </li>
-        <li id="mes" class={props.score===0 ? "incorrect" : "correct"}>
-          {props.score===0 ? "You guessed incorrectly!" : ""}
-        </li>
+        <li id="mes" class=""></li>
         <li>
           Score: {props.score} | Top Score: {props.topscore}
         </li>
